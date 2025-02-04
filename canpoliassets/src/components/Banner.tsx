@@ -23,16 +23,20 @@ function Banner() {
             <Stack
                 direction="row"
                 spacing={2}
+                zIndex={2}
                 sx={{
                     width: "100%",
                     justifyContent: "space-around",
-                    alignItems: "center"
+                    alignItems: "center",
                 }}
             >
                 <Button>This will be a button with the org logo</Button>
                 <Button>This will be a button to join the discord</Button>
             </Stack>
-            <Box maxWidth={900}>
+            <Box 
+                maxWidth={900}
+                zIndex={2}
+            >
                 <Typography 
                     variant="h5"
                     color="white"
